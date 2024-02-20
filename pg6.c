@@ -1,3 +1,5 @@
+//Delete Node in a Linked List
+
 void deleteNode(struct ListNode* node) {
     struct ListNode *prev = node , *curr = node->next;
     while(curr != NULL)
