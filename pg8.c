@@ -1,3 +1,5 @@
+// Convert BST to Greater Tree
+
 void  sum_node(struct TreeNode* root, int* k){
     if(root == NULL)return;
     sum_node(root->right, k);
