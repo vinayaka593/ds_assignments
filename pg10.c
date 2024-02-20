@@ -1,3 +1,5 @@
+//Range Sum of BST
+
 int rangeSumBST(struct TreeNode* root, int low, int high) {
     struct TreeNode *stack[10000], *node;
     int sum = 0, sp = 0, val;
