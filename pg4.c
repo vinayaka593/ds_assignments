@@ -1,3 +1,5 @@
+//Power of Two
+
 bool isPowerOfTwo(int n) {
     if(n==1){
         return true;
